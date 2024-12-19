@@ -5,7 +5,7 @@ pkgdesc="Rewrite mkdir unix command with std::filesystem"
 arch=("any")
 url="https://github.com/yumieiko/makedir"
 depends=("clang")
-source=("main.cpp")
+source=("https://github.com/yumieiko/makedir/archive/refs/tags/1.0.0.tar.gz")
 sha512sums=("SKIP")
 
 build() {
